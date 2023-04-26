@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-25T10:38:37.971Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="m9zYAFzWfiKTQ-9VPCxr" version="21.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-26T08:47:00.753Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="1qpWlzbovhsYTVy6OE-z" version="21.2.1" type="github">
   <diagram name="Page-1" id="5f0bae14-7c28-e335-631c-24af17079c00">
-    <mxGraphModel dx="1150" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="918" dy="637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -285,7 +285,7 @@
         <mxCell id="CG3TOa5hcq1ZWwIJxW8Z-26" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font color=&quot;#ff33ff&quot; style=&quot;border-color: var(--border-color);&quot;&gt;Service&lt;/font&gt;&lt;/b&gt;&lt;b&gt;&lt;font color=&quot;#ff00ff&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="html=1;whiteSpace=wrap;align=center;" parent="1" vertex="1">
           <mxGeometry x="455" y="270" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="CG3TOa5hcq1ZWwIJxW8Z-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0066CC;strokeWidth=2;" parent="1" source="CG3TOa5hcq1ZWwIJxW8Z-42" target="VQmsO8RJKZGxtteuDF_l-87" edge="1">
+        <mxCell id="CG3TOa5hcq1ZWwIJxW8Z-58" value="2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#0066CC;strokeWidth=2;fontSize=20;" parent="1" source="CG3TOa5hcq1ZWwIJxW8Z-42" target="VQmsO8RJKZGxtteuDF_l-87" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1050" y="455" />
@@ -316,6 +316,31 @@
         </mxCell>
         <mxCell id="dzeqMT_aTfjdizQfDeOP-2" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font color=&quot;#ff33ff&quot; style=&quot;border-color: var(--border-color);&quot;&gt;MyRxRestClient&lt;/font&gt;&lt;/b&gt;&lt;b&gt;&lt;font color=&quot;#ff00ff&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="html=1;whiteSpace=wrap;align=center;" parent="1" vertex="1">
           <mxGeometry x="535" y="370" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cuIf5C-jtbmaZLGuseTn-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;MultiTenancy Util Lib&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height:2px;&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="682.5" y="180" width="165" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cuIf5C-jtbmaZLGuseTn-2" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#ff00ff&quot;&gt;WebClientManager&lt;/font&gt;&lt;/b&gt;" style="html=1;whiteSpace=wrap;align=center;" vertex="1" parent="1">
+          <mxGeometry x="691.25" y="225" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cuIf5C-jtbmaZLGuseTn-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;strokeColor=#0066CC;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740" y="255" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="740" y="398" />
+            </Array>
+            <mxPoint x="740" y="400" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cuIf5C-jtbmaZLGuseTn-5" value="getOrCreateWebClient based on&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;apim-sub-key&lt;/b&gt;&amp;nbsp;---&amp;gt;&amp;nbsp; Map&amp;lt;SubKey, EndClient&amp;gt; ---&amp;gt;&amp;nbsp; EndClient" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cuIf5C-jtbmaZLGuseTn-4">
+          <mxGeometry x="0.3029" y="1" relative="1" as="geometry">
+            <mxPoint x="31" y="14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cuIf5C-jtbmaZLGuseTn-6" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" vertex="1" connectable="0" parent="cuIf5C-jtbmaZLGuseTn-4">
+          <mxGeometry x="-0.3761" y="3" relative="1" as="geometry">
+            <mxPoint x="3" y="5" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
